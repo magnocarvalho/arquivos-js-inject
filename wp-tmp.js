@@ -17,7 +17,7 @@ container_block[0].appendChild(block_to_insert);
 
 jQuery(document).ready(() => {
 block_to_insert1 = document.createElement('div');
-block_to_insert1.innerHTML = '<div class="modal-body"><img src="https://dummyimage.com/1400x200/000/fff.png" alt="Image"><div class="image"></div></div></div>';
+block_to_insert1.innerHTML = '<div class="modal-body"><img src="https://magnocarvalho.github.io/rsz_110153225398226-t1200x480.png" alt="Image"><div class="image"></div></div></div>';
 container_block1 = document.getElementsByClassName('product');
 for (let i = 0; i <  container_block1.length; i++) {
     container_block1[i].appendChild(block_to_insert1);
