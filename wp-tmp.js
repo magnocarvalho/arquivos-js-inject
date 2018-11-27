@@ -10,7 +10,7 @@ var jQuery;
 
 jQuery(document).ready(() => {
 block_to_insert = document.createElement('div');
-block_to_insert.innerHTML = '<div style="display: inline-block"><img src="https://magnocarvalho.github.io/rick.jpg"></div>';
+block_to_insert.innerHTML = '<div style="display: inline-block"><img style="width: 100%" src="https://magnocarvalho.github.io/rick.jpg"></div>';
 container_block = document.getElementsByClassName('main');
 container_block[0].appendChild(block_to_insert);
 });
